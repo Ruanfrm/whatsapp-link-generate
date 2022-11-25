@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>link whats generate</title>
+</head>
+<body>
+    <div>
+    
+    <h1>Gerador de link pro whatsapp</h1>
+    <div>
+<form name="form_main">
+  <label for="number">Número: </label>
+  <input type="text" name="number" id="number" /> 
+  <label for="message">Mensagem: </label>
+  <input type="text" name="message" id="message"/> 
+ <p id="end_url"></p> 
+  <button type="button" onclick="generateLink()">Gerar</button>
+</form>
+
+<script>
+function generateLink() {
+    let number = document.form_main.number.value;
+    let message = document.form_main.message.value;
+    let url = "https://wa.me/55";
+    let end_url = `${url}${number}?text=${message}`;
+    document.getElementById('end_url').innerText = end_url;
+  }
+  </script>
+  </div>
+</div>
+
+</body>
+</html>
