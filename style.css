@@ -38,12 +38,23 @@
   input {
     background-color: cyan;
     margin: 4px ;
-     max-width: 600px;
+    width: 600px;
     padding: 10px 8px;
     text-align: center;
     border: 0;
     font-weight: bold;
     border-radius: 50px;
+  }
+
+  label {
+    font-weight: bold;
+    
+  }
+
+  @media  (max-width: 600px){
+    input {
+        max-width: 350px;
+    }
   }
 
   p {
