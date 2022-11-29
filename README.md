@@ -2,6 +2,6 @@
 
 ## Linguagem utilizada.
 * HTML <br/>
-* CSS* <br/>
+* CSS <br/>
 * JavaScript<br/>
 
