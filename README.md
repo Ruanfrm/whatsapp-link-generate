@@ -1,7 +1,7 @@
 # whatsapp-link-generate
 
 ## Linguagem utilizada.
-*HTML
-*CSS* 
-*JavaScript
+* HTML <br/>
+* CSS* <br/>
+* JavaScript<br/>
 
